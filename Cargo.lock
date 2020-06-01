@@ -208,27 +208,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "common-types"
-version = "0.1.0"
-dependencies = [
- "derive_more",
- "ethbloom",
- "ethcore-io",
- "ethereum-types",
- "ethjson",
- "keccak-hash",
- "parity-bytes",
- "parity-crypto",
- "parity-snappy",
- "parity-util-mem",
- "patricia-trie-ethereum",
- "rlp",
- "rlp-derive",
- "rustc-hex",
- "unexpected",
-]
-
-[[package]]
 name = "const-random"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1599,6 +1578,27 @@ dependencies = [
  "log",
  "rustc-hex",
  "smallvec 1.4.0",
+]
+
+[[package]]
+name = "tx-decoder"
+version = "0.1.0"
+dependencies = [
+ "derive_more",
+ "ethbloom",
+ "ethcore-io",
+ "ethereum-types",
+ "ethjson",
+ "keccak-hash",
+ "parity-bytes",
+ "parity-crypto",
+ "parity-snappy",
+ "parity-util-mem",
+ "patricia-trie-ethereum",
+ "rlp",
+ "rlp-derive",
+ "rustc-hex",
+ "unexpected",
 ]
 
 [[package]]
